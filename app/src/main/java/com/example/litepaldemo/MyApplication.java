@@ -3,7 +3,6 @@ package com.example.litepaldemo;
 import android.app.Application;
 
 import org.litepal.LitePal;
-import org.litepal.LitePalApplication;
 
 public class MyApplication extends Application {
 
