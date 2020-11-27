@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_getDatabase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="创建数据库并生成一条默认数据" />
+
+    <Button
+        android:id="@+id/btn_delDatabase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除数据库" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="歌曲名" />
+
+    <EditText
+        android:id="@+id/et_singer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="歌手" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="新增" />
+
+    <TextView
+        android:id="@+id/tv_context"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="输入id删除"
+            android:inputType="number"
+            android:maxLength="18" />
+
+        <Button
+            android:id="@+id/btn_del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="删除" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_update_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="id"
+        android:inputType="number"
+        android:maxLength="18" />
+
+    <EditText
+        android:id="@+id/et_update_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="歌曲名" />
+
+    <EditText
+        android:id="@+id/et_update_singer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="歌手" />
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="修改" />
+
+</LinearLayout>
